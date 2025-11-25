@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "cd mca && npm run dev",
-    "build": "cd mca && npm run build",
+    "build": "cd mca && npm ci && npm run build && rm -rf ../dist || true && mkdir -p ../dist && cp -r dist/* ../dist/",
     "preview": "cd mca && npm run preview"
   },
   "dependencies": {
