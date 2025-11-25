@@ -1,4 +1,12 @@
 {
+  "name": "mca-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cd mca && npm run dev",
+    "build": "cd mca && npm run build",
+    "preview": "cd mca && npm run preview"
+  },
   "dependencies": {
     "axios": "^1.13.2"
   },
