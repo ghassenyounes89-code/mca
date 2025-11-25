@@ -1958,7 +1958,7 @@ function App() {
 
   // Handle phone call
   const handleCall = () => {
-    window.open('tel:+213771234567')
+    window.open('tel:+213775818782')
   }
 
   // Handle logo click
