@@ -544,7 +544,7 @@ const Footer = ({ setPage, setShowContactModal, setShowHelpModal, handleCall, ha
               onClick={handleCall}
               className="bg-transparent border-none text-gray-300 cursor-pointer py-1 sm:py-2 text-left transition-all duration-300 relative overflow-hidden hover:text-white hover:translate-x-2 text-sm sm:text-base"
             >
-              📞 +213 771 23 45 67
+              📞 +213775818782
             </button>
             <button 
               onClick={handleFindStore}
@@ -557,9 +557,19 @@ const Footer = ({ setPage, setShowContactModal, setShowHelpModal, handleCall, ha
       </div>
       
       <div className="border-t border-gray-800 py-6 sm:py-8 px-4 sm:px-8 text-center text-gray-500 text-xs sm:text-sm">
-        <p>&copy; 2025 MCA Shop. All rights reserved.</p>
-      </div>
-    </footer>
+  <p>
+    &copy; 2025 MCA Shop. All rights reserved.{" "}
+    <a 
+      href="https://www.instagram.com/younes_dev_/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-red-400 hover:text-red-300 transition-colors duration-300 font-semibold cursor-pointer"
+    >
+      younes dev
+    </a>
+  </p>
+</div>
+</footer>
   )
 }
 
